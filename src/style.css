@@ -7,7 +7,7 @@ body{
 section{
     height: 500px;
     background-color: white;
-    border: solid black 1px;
+
 }
 
 .hero{
@@ -49,6 +49,11 @@ h2{
 p{
     margin: 0pox;
     font-size: 30px;
+    font-weight: 600;
+}
+
+.subtext{
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -95,12 +100,19 @@ p{
     margin:20px;
 }
 
+
 .sub-section{
     display: flex;
     justify-content: space-around ;
     padding: 80px;
 }
-
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 200px;
+}
 
 .headshot{
     width: 300px;
@@ -109,4 +121,38 @@ p{
 .headshot-container{
     display: flex;
     align-items: center;
+}
+.project-card{
+    width: 400px;;
+    min-height: 500px;
+    box-shadow: 5px 5px 20px rgb(149, 149, 149);
+}
+
+.project-containor{ 
+    display: flex;
+    justify-content: space-around;
+}
+.project-image{
+    width: 300px;
+    margin-top: 25px;
+    border-radius: 125px;
+}
+
+hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.git-link{
+    text-decoration: none;
+    color: coral;
+    font-weight: 600;
+}
+.subtext{
+    font-weight: 400;
 }

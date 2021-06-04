@@ -13,16 +13,16 @@
         <nav>
            <img class="logo"  src="src/images/logo.png" alt="logo">
             <ul>
-                <li>About Me</li>
-                <li>Project</li>
-                <li>Contact Me</li>
+                <a href="#about-me"><li>About Me</li></a>
+                <a href="#projects"><li>Project</li></a>
+                <a href="#contactme"><li>Contact Me</li></a>
             </ul>
         </nav>
         <div class="hero-area">
             <div class ="hero-text">            
                 <h1>Baiju Chandran</h1>
                 <p>Full Stack Developer</p>
-                <div class="button">About Me</div>
+                <div class="button"><a href="#about-me">About Me</a></div>
                 </div>
                 <div class="socials">
                     <div><a href="https://www.twitter.com/_BaijuChandran" class="social">
@@ -38,7 +38,7 @@
         </div>
       
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p>Hello, My name is Baiju Chandran. I am a software Developer</p>
@@ -48,16 +48,42 @@
         </div>
 
     </section>
-    <section class="sub-section">
+    <section class="sub-section-alternative" >
         <h2>Projects</h2>
-        <div>
-            <div class="Project-card1"></div>
-            <div class="Project-card1"></div>
-            <div class="Project-card1"></div>
-            <div class="Project-card1"></div>
+        <div class= "project-containor">
+            <div class="project-card">
+                <img class="project-image" src="src/images/p7.jpg" alt="project one">
+                <h3>Project One</h3>
+                <p class="subtext">This is my Project</p>
+                <hr/>
+                <p class="subtext"><a class="git-link" href="https://github.com/baiju28feb">View here</a>  </p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/p5.jpg" alt="project one">
+                <h3>Project Two</h3>
+                <p class="subtext">This is my Project</p>
+                <hr/>
+                <p class="subtext"><a class="git-link" href="https://github.com/baiju28feb">View here</a>  </p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/p6.jpg" alt="project one">
+                <h3>Project Three</h3>
+                <p class="subtext">This is my Project</p>
+                <hr/>
+                <p class="subtext"><a class="git-link" href="https://github.com/baiju28feb">View here</a>  </p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/pic4.jpg" alt="project one">
+                <h3>Project Four</h3>
+                <p class="subtext">This is my Project</p>
+                <hr/>
+               <p class="subtext"><a class="git-link" href="https://github.com/baiju28feb">View here</a></p> 
+            </div>
         </div>
     </section>
-    <footer></footer>
+    <footer>
+
+    </footer>
 
     <script src= "src/app.js"></script>
 </body>
