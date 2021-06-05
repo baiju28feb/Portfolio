@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/317856c9aa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>Portfolio</title>
 </head>
@@ -12,11 +13,14 @@
     <section class="hero">
         <nav>
            <img class="logo"  src="src/images/logo.png" alt="logo">
-            <ul>
+            <ul id ="nav-list">
                 <a href="#about-me"><li>About Me</li></a>
                 <a href="#projects"><li>Project</li></a>
                 <a href="#contactme"><li>Contact Me</li></a>
             </ul>
+            <button class="hamburger" id ="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class ="hero-text">            
@@ -48,7 +52,7 @@
         </div>
 
     </section>
-    <section class="sub-section-alternative" >
+    <section class="sub-section-alternative" id = "projects" >
         <h2>Projects</h2>
         <div class= "project-containor">
             <div class="project-card">
@@ -81,8 +85,8 @@
             </div>
         </div>
     </section>
-    <footer>
-
+    <footer id = "contactme">
+        <h2>Contact Me</h2>
     </footer>
 
     <script src= "src/app.js"></script>
