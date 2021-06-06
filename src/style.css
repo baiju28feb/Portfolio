@@ -221,7 +221,42 @@ a{
     ul.show{
         display: block;
     }
-    
+    .myname{
+        font-size: 6vh;
+    }
+    .iam, .type{
+        font-size: 3vh;
+    }
+    .button{
+        width: 150px;
+        height: 30px;
+    }
+    .abtme{
+        font-size: 3vh;
+        display: flex;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    #twitter-icon, #linkedin-icon, #github-icon{
+        height: 30px;
+        width: 30px;
+    }
+    .hero-text{
+        margin-left: 30px;
+    }
+    .information > h2{
+        font-size: 5vh;
+        display: flex;
+        margin-top: -30px;
+        margin-left: 50px;
+   }
+   .information > p{
+    font-size: 2vh;
+   }
+   .headshot{
+     display: none;
+   }
+
 }
 .iam{
     float: left;
