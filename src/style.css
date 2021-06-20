@@ -256,6 +256,9 @@ a{
    .headshot{
      display: none;
    }
+   #contact-me{
+       position: relative;
+   }
 
 }
 .iam{
